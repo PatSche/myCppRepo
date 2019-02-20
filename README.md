@@ -7,4 +7,4 @@ OS X / Linux | [![OSX/Linux Build Status](https://travis-ci.org/PatSche/myCppRep
 <!--OSX      | [![OSX Build Status](TODO)](TODO)
 Linux    | [![Linux Build Status](TODO)](TODO)-->
 
-A simple test project to Test AppVeyor and Travis for future cross-platform project.
+A simple test project to Test AppVeyor and Travis for a future cross-platform project.
