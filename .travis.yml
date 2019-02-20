@@ -1,4 +1,4 @@
-language: c
+language: cpp
 
 os:
   - linux
@@ -19,7 +19,7 @@ before_install:
   - mkdir build
   - cd build
   - cmake --version
-  - cmake -G ..
+  - cmake ..
 
 script:
   - cmake --build . --target all
