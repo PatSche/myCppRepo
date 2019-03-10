@@ -20,6 +20,6 @@ build:
   project: $(APPVEYOR_BUILD_FOLDER)\build\hello.sln
 
 artifacts:
-  - path: $(APPVEYOR_BUILD_FOLDER)\build\$(configuration)\*.exe
+  - path: build\$(configuration)\*.exe
     name: MyArtifact
     
