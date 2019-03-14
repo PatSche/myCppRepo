@@ -24,3 +24,5 @@ jobs:
       - run:
           name: Creating Binary Files
           command: 'cmake --build build'
+      - store_artifacts:
+          path: build/hello
